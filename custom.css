@@ -1,0 +1,135 @@
+.offset-1-3 {
+    margin-left: 33.33%;
+    margin-left: 33.325%; 
+}
+
+.offset-1-4 {
+    margin-left: 25%;
+    margin-left: 25%; 
+}
+
+/* --------------------------
+ * Element Styles
+ * --------------------------
+*/
+html {
+  font-family: sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+}
+
+body {
+    min-width: 320px;
+    color: #777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+}
+h3 {
+    font-size: 1.25em;
+}
+h4 {
+    font-size: 1.125em;
+}
+
+a {
+    color: #3b8bba; /* block-background-text-normal */
+    text-decoration: none;
+}
+
+
+/* --------------------------
+ * Header Module Styles
+ * --------------------------
+*/
+
+.header {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    letter-spacing: 0.05em;
+}
+    .header h1 {
+        font-size: 300%;
+        font-weight: 100;
+        margin: 0;
+    }
+     .header h2 {
+        font-size: 125%;
+        font-weight: 100;
+        line-height: 1.5;
+        margin: 0;
+        color: #666;
+        letter-spacing: -0.02em;
+    }
+
+
+ /* --------------------------
+  * Content Module Styles
+  * --------------------------
+ */
+
+/* The content div is placed as a wrapper around all the docs */
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 768px;
+    padding-top: 20px;
+    margin-top: -30px;
+}
+
+/* --------------------------
+  * Section Module Styles
+  * --------------------------
+ */
+.section {
+    margin: 2em 0 1em 0;
+    position: relative;
+}
+
+.section .section-head {
+    font-weight: 300;
+    color: #888;
+}
+
+/* --------------------------
+  * Experience Module Styles
+  * --------------------------
+ */
+.experience .experience-position, .experience .experience-dates {
+    margin-top: -15px;
+    color: #888;
+    font-weight: 300;
+}
+
+.experience ul {
+    padding-left: 10px;
+}
+
+.experience li {
+    padding: 5px;
+}
+
+/* --------------------------
+  * Education Module Styles
+  * --------------------------
+ */
+.education p {
+  margin-top: -10px;
+}
+
+/* --------------------------
+  * References Module Styles
+  * --------------------------
+ */
+.references p {
+  margin-top: 27px;
+}

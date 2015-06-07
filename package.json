@@ -1,0 +1,17 @@
+{
+  "name": "resume",
+  "version": "0.0.1",
+  "description": "Mah resume",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: No need to test my skills\" && exit 1"
+  },
+  "author": "Burke Holland <burkeholland@gmail.com> (http://a.shinynew.me/)",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-concat": "^2.5.2",
+    "gulp-minify-css": "^1.1.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-watch": "^4.2.4"
+  }
+}
