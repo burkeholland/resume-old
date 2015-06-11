@@ -39,6 +39,7 @@ p, li {
 
 .container { 
   @include container; 
+  position: relative;
 }
 
 .col-1-3 {
@@ -113,17 +114,12 @@ p, li {
   margin-bottom: 20px;
   @include susy-breakpoint((max-width 768px)) {
     margin-bottom: 40px;
-
   }
 }
 
-.blur {
-  color: transparent;
-  text-shadow: 0 0 20px rgba(0,0,0,0.5);
-  transition: color 2s, text-shadow 2s;
-}
-
-.loaded {
-  color: #777;
-  text-shadow: none;
+#me {
+  position: absolute;
+  top: 20px;
+  right: -200px;
+  border-radius: 50%;
 }

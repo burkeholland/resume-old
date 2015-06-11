@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Burke Holland - Resume</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -16,8 +17,11 @@
        were all green. Well, mostly green at least. -->
 
   <div class="container">
+
+    <img id="me" src="images/me.jpg">
+
     <header class="header">
-      <h1>Burke Holland</h1>
+      <h1 id="name">Burke Holland</h1>
       <p>I am a technologist, author and speaker working in the specialized field of Developer Relations.</p>
     </header>
 
@@ -200,20 +204,6 @@
     </div>
     
   </div>
-
-  <script>
-
-    (function() {
-
-      document.body.className += 'blur'
-
-      setTimeout(function() {
-        document.body.className += ' loaded';
-      }, 1000);
-
-    }());
-
-  </script>
 
 </body>
 </html>
