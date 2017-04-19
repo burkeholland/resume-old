@@ -1,4 +1,4 @@
-@import "./components/susy/sass/susy";
+@import "susy";
 
 $susy: (
   global-box-sizing: 'border-box',
@@ -136,5 +136,12 @@ p, li {
   border-radius: 50%;
   @include susy-breakpoint((max-width 1200px)) {
     display: none;
+  }
+}
+
+/* Hack for the Twitter icon kerning issue */
+.icon-twitter {
+  @include susy-breakpoint((min-width 500px)) {
+    margin: 4px;
   }
 }

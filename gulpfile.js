@@ -6,15 +6,18 @@ var watch = require('gulp-watch');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var smoosher = require('gulp-smoosher');
-
+var wait = require('gulp-wait');
 var sassSrc = './src/sass/**/*.{scss,sass}';
 var stylesSrc = './src/css/**/*.css';
 
 gulp.task('sass', function() {
   gulp.src(sassSrc)
     .pipe(sourcemaps.init())
+    .pipe(wait(500))
     .pipe(sass({
-      errLogToConsole: true
+      errLogToConsole: true,
+      outputStyle: 'compressed',
+      includePaths: ['./node_modules/susy/sass']
     }))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./src/css'));
@@ -42,7 +45,7 @@ gulp.task('smoosh', ['minify'], function() {
 gulp.task('build', ['sass', 'concat', 'minify', 'smoosh']);
 
 gulp.task('watch', function() {
-  gulp.watch(sassSrc, ['build']);
+  gulp.watch([sassSrc, "./src/index.html"], ['build']);
 });
 
 gulp.task('default', ['build', 'watch']);
