@@ -141,7 +141,7 @@ p, li {
 
 /* Hack for the Twitter icon kerning issue */
 .icon-twitter {
-  @include susy-breakpoint((min-width 500px)) {
+  @include susy-breakpoint((min-width 501px)) {
     margin: 4px;
   }
 }
