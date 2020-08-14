@@ -9,18 +9,22 @@
   "author": "Burke Holland <burkeholland@gmail.com> (http://a.shinynew.me/)",
   "license": "ISC",
   "devDependencies": {
-    "gulp-concat": "^2.5.2",
-    "gulp-minify-css": "^1.1.6",
-    "gulp-rename": "^1.2.2",
-    "gulp-watch": "^4.2.4",
-    "gulp-uncss": "^1.0.1",
-    "gulp-sourcemaps": "^1.5.2",
-    "gulp-smoosher": "0.0.7"
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^2.0.0",
+    "gulp-smoosher": "0.0.9",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uncss": "^1.0.6",
+    "gulp-watch": "^5.0.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.3",
+    "webpack": "^4.44.1"
   },
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-wait": "0.0.2",
-    "susy": "^2.2.12"
+    "node-sass": "^4.14.1",
+    "susy": "^3.0.6"
   }
 }
